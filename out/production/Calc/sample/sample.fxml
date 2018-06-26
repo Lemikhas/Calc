@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.shape.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.canvas.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.geometry.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="426.0" prefWidth="268.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Controller">
+   <children>
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#75757520" height="64.0" layoutX="35.0" layoutY="49.0" stroke="BLACK" strokeType="INSIDE" width="199.0" />
+      <Button fx:id="bzero" layoutX="82.0" layoutY="355.0" mnemonicParsing="false" onAction="#handleClickzero" prefHeight="44.0" prefWidth="48.0" text="0" GridPane.columnIndex="3" GridPane.rowIndex="3" />
+      <Button layoutX="138.0" layoutY="199.0" mnemonicParsing="false" onAction="#handleClick9" prefHeight="44.0" prefWidth="48.0" text="9" GridPane.columnIndex="2" GridPane.rowIndex="1" />
+      <Button fx:id="b4" layoutX="26.0" layoutY="251.0" mnemonicParsing="false" onAction="#handleClick4" prefHeight="44.0" prefWidth="48.0" text="4" GridPane.rowIndex="2" />
+      <Button fx:id="bback" layoutX="82.0" layoutY="147.0" mnemonicParsing="false" onAction="#handleClickback" prefHeight="44.0" prefWidth="48.0" text="&lt;-" GridPane.columnIndex="2" />
+      <Button layoutX="194.0" layoutY="199.0" mnemonicParsing="false" onAction="#handleClickmulti" prefHeight="44.0" prefWidth="48.0" text="*" GridPane.columnIndex="1" />
+      <Button fx:id="bres" layoutX="138.0" layoutY="147.0" mnemonicParsing="false" onAction="#handleClickres" prefHeight="44.0" prefWidth="48.0" text="=" GridPane.columnIndex="3" />
+      <Button layoutX="26.0" layoutY="199.0" mnemonicParsing="false" prefHeight="44.0" prefWidth="48.0" text="Button" GridPane.rowIndex="1" />
+      <Button fx:id="b3" layoutX="138.0" layoutY="303.0" mnemonicParsing="false" onAction="#handleClick3" prefHeight="44.0" prefWidth="48.0" text="3" GridPane.columnIndex="2" GridPane.rowIndex="3" />
+      <Button fx:id="b5" layoutX="82.0" layoutY="251.0" mnemonicParsing="false" onAction="#handleClick5" prefHeight="44.0" prefWidth="48.0" text="5" GridPane.columnIndex="1" GridPane.rowIndex="2" />
+      <Button layoutX="82.0" layoutY="199.0" mnemonicParsing="false" onAction="#handleClick8" prefHeight="44.0" prefWidth="48.0" text="8" GridPane.columnIndex="1" GridPane.rowIndex="1" />
+      <Button fx:id="bsum" layoutX="194.0" layoutY="303.0" mnemonicParsing="false" onAction="#handleClicksum" prefHeight="96.0" prefWidth="48.0" text="+" GridPane.columnIndex="3" GridPane.rowIndex="2" />
+      <Button fx:id="b2" layoutX="82.0" layoutY="303.0" mnemonicParsing="false" onAction="#handleClick2" prefHeight="44.0" prefWidth="48.0" text="2" GridPane.columnIndex="1" GridPane.rowIndex="3" />
+      <Button fx:id="button1" layoutX="26.0" layoutY="303.0" mnemonicParsing="false" onAction="#handleClick1" prefHeight="44.0" prefWidth="48.0" text="1" GridPane.rowIndex="3" />
+      <Button layoutX="26.0" layoutY="199.0" mnemonicParsing="false" onAction="#handleClick7" prefHeight="44.0" prefWidth="48.0" text="7" GridPane.rowIndex="1" />
+      <Button fx:id="b6" layoutX="138.0" layoutY="251.0" mnemonicParsing="false" onAction="#handleClick6" prefHeight="44.0" prefWidth="48.0" text="6" GridPane.columnIndex="2" GridPane.rowIndex="2" />
+      <Button layoutX="194.0" layoutY="147.0" mnemonicParsing="false" onAction="#handleClickdev" prefHeight="44.0" prefWidth="48.0" text="/" />
+      <Button fx:id="bsub" layoutX="194.0" layoutY="251.0" mnemonicParsing="false" onAction="#handleClicksub" prefHeight="44.0" prefWidth="48.0" text="-" GridPane.columnIndex="3" GridPane.rowIndex="1" />
+      <Text fx:id="hisdis" fill="#434343" layoutX="35.0" layoutY="33.0" strokeType="OUTSIDE" strokeWidth="0.0" textAlignment="RIGHT" wrappingWidth="199.0">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Text>
+      <Text fx:id="disp" fill="#a8a3a3" layoutX="-2.0" layoutY="100.0" strokeType="OUTSIDE" strokeWidth="0.0" text="0" textAlignment="RIGHT" wrappingWidth="235.875">
+         <font>
+            <Font size="48.0" />
+         </font>
+      </Text>
+      <Button layoutX="26.0" layoutY="147.0" mnemonicParsing="false" onAction="#handleClickerese" prefHeight="44.0" prefWidth="48.0" text="C" />
+      <Button layoutX="138.0" layoutY="355.0" mnemonicParsing="false" onAction="#handleClickpoint" prefHeight="44.0" prefWidth="48.0" text=".">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Button>
+      <Button layoutX="26.0" layoutY="355.0" mnemonicParsing="false" onAction="#handleClickSwOp" prefHeight="44.0" prefWidth="48.0" text="+/-" />
+   </children>
+</Pane>
